@@ -1,0 +1,74 @@
+
+.card-border {
+  border: solid 10px #fff;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: all ease-out 0.2s;
+}
+
+.card-border:hover {
+  transform: scale(1.05);
+}
+
+
+.colornav{
+  background: #667db6;
+  background: -webkit-linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
+  background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
+}
+
+.logo{
+  margin-left: 2em;
+}
+
+#distritos{
+  background: #1c92d2;
+  background: -webkit-linear-gradient(to right, #f2fcfe, #1c92d2);
+  background: linear-gradient(to right, #f2fcfe, #1c92d2);
+  background-repeat: repeat-x;
+  background-size: 100%;
+  margin-top: -25px;
+}
+
+p{
+  font-size: 18px;
+}
+
+.imgtam{
+  width: 60%;
+  margin-left: 20%;
+}
+
+
+.navstilo {
+  margin-left: auto;
+  padding-right: 3em;
+  font-size: 18px;
+}
+
+.fila{
+  margin-bottom: 25px;
+}
+
+.h1border{
+  padding-bottom: 4px;
+  border-top: 2px solid #777474;
+  border-bottom: 2px solid #777474;
+}
+
+.texto{
+  top: 40%;
+  left: 30%;
+}
+
+#footer {
+  background: lightblue;
+  background-size: 50px 50px;
+}
+
+@media only screen and (max-width: 768px) { 
+  .imgtam{
+    width: 100%;
+    margin-left: 0;
+  }
+}
